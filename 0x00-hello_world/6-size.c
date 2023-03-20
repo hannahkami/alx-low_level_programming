@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - prints a size of a various types of computer type
+ * Description: 'returnprint the various types on the computer'
  * Return 0 (success)
  */
+
 int main(void)
 {
 	char f;
