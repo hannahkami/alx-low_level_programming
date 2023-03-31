@@ -43,7 +43,7 @@ void print_buffer(char *b, int size)
 					c = '.';
 				}
 				printf("\n");
-				o += 10
+				o += 10;
 			}
 		}
 	}
