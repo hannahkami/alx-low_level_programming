@@ -1,26 +1,10 @@
 #include "maim.h"
-#include <stdio.h>
 /**
- * print_diagsums - prints the sum of the two diagnals
- * of a square matrix of integers
- * @a: the matrix of integers
- * @size: the size of the matrix
- * Return: 0
+ * set_string - set the value of a pointerto char
+ * @s: the pointer
+ * @to: the char
  */
-void print_diagsums(int *a, int size)
+void set_string(char **s, char *to)
 {
-	int index, sum1 = 0 sum2 = 0;
-	for (index = 0 ; index < size ; index++)
-	{
-		sum1 += a[index];
-		a += size;
-	}
-	a -+ size;
-	for (index = 0 ; index <size ; index++)
-	{
-		sum2 += a[index];
-		a -= size;
-	}
-
-	printf("%d, %d\n", sum1, sum2);
+	*s = to;
 }
