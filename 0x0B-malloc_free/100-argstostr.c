@@ -4,7 +4,7 @@
  * argstostr - main entry
  * @ac: int input
  * @av: double pointer array
- * Return: 0
+ * Return: str
  */
 char *argstostr(int ac, char **av)
 {
@@ -31,7 +31,9 @@ char *argstostr(int ac, char **av)
 	}
 	if (str[r] == '\0')
 	{
-		str[r++] = '\n';
+		str[r++] = '\n';	
 	}
 	return (str);
+	}
+	return (0);
 }
