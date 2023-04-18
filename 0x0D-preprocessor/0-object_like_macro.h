@@ -1,3 +1,3 @@
-#ifndef SIZE
-#define SIZE
+#ifndef SIZE_H
+#define SIZE_H
 #endif
